@@ -1,0 +1,7 @@
+
+ 1) docker yoqmamiz      sudo chmod 666 /var/run/docker.sock
+
+ 2) docker conteyner yaratamiz       docker run --name exam -e POSTGRES_PASSWORD=1 -p 5434:5432 -v exam:/var/lib/postgresql/data -d postgres:alpine
+ 3) postgresga kiramiz              docker exec -it pg_container psql -U postgres
+ 4) user yaratamiz              CREATE USER javoxir WITH PASSWORD '1' CREATEDB CREATEROLE;
+ 5)  password ozgrtiramiz      ALTER USER javoxir WITH PASSWORD '1';
